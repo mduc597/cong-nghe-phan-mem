@@ -1,5 +1,4 @@
-Nhóm 6 - Notion - Productivity Workflow
-# NHÓM 6 – NOTION
+# NHÓM 6 – NOTION - Productivity Workflow
 
 ## Chủ đề trọng tâm
 **Productivity Workflow**
