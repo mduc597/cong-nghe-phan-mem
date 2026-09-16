@@ -1,4 +1,3 @@
-# cong-nghe-phan-mem
 Nhóm 6 - Notion - Productivity Workflow
 # NHÓM 6 – NOTION
 
