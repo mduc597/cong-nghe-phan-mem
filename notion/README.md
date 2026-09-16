@@ -1,4 +1,4 @@
-# NHÓM 6 – NOTION
+# NHÓM 6 – NOTION - PRODUCTIVITY WORKFLOW
 
 ## Chủ đề trọng tâm
 **Productivity Workflow**
