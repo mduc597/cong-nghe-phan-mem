@@ -62,9 +62,9 @@ Theo nhóm, Notion thành công nhờ khả năng kết hợp nhiều nhu cầu 
 |---|---|---|
 | **Ai quyết định requirement?** | Khách hàng và nhóm dự án thống nhất yêu cầu. | Product team dựa trên nhu cầu người dùng, dữ liệu và mục tiêu sản phẩm. |
 | **Mục tiêu chính** | Hoàn thành dự án đúng yêu cầu, phạm vi, thời gian và ngân sách. | Tạo giá trị cho người dùng và phát triển sản phẩm lâu dài. |
-| **Ai chịu trách nhiệm growth?** | Chủ yếu tập trung hoàn thành mục tiêu của dự án. | Product team và doanh nghiệp chịu trách nhiệm phát triển sản phẩm. |
+| **Ai chịu trách nhiệm growth?** | Khách hàng. Sau khi bàn giao source code/phần mềm, khách hàng tự mang đi kinh doanh hoặc áp dụng nội bộ. Team dev không cần lo việc này.. | Product team và doanh nghiệp chịu trách nhiệm phát triển sản phẩm. |
 | **User có tham gia liên tục không?** | Thường tham gia ở các giai đoạn xác định yêu cầu, phản hồi và nghiệm thu. | Có, thông qua phản hồi, hành vi sử dụng và nhu cầu thực tế. |
-| **Có cải tiến liên tục không?** | Thường giới hạn trong phạm vi và thời gian của dự án. | Có, sản phẩm được cập nhật và cải tiến liên tục. |
+| **Có cải tiến liên tục không?** | Không (hoặc rất ít). Dự án kết thúc là xong. Nếu muốn thêm tính năng hay cải tiến, khách hàng phải ký thêm hợp đồng bảo trì hoặc dự án giai đoạn 2. | Có, sản phẩm được cập nhật và cải tiến liên tục. |
 | **Đo thành công bằng gì?** | Phạm vi công việc, thời gian, ngân sách và mức độ đáp ứng yêu cầu. | Giá trị mang lại cho người dùng, mức độ sử dụng, khả năng giữ chân người dùng và tăng trưởng. |
 
 ---
