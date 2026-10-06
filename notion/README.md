@@ -1,80 +1,158 @@
-# NHÓM 6 – NOTION - PRODUCTIVITY WORKFLOW
+# NOTION WORKFLOW – PRODUCTIVITY WORKFLOW
 
-## Chủ đề trọng tâm
-**Productivity Workflow**
+## 1. Tổng quan sản phẩm
 
----
+**Tên sản phẩm:** Notion Workflow
 
-# HOẠT ĐỘNG 1: PRODUCT THINKING
+**Loại sản phẩm:** Phần mềm quản lý công việc và quy trình làm việc nhóm.
 
-## 1. Sản phẩm nhóm được phân tích là gì?
-
-**Notion** là một nền tảng hỗ trợ ghi chú, quản lý công việc, lưu trữ tài liệu và tổ chức thông tin trong một không gian làm việc (Workspace).
-
-## 2. User chính của sản phẩm là ai?
-
-Người dùng chính của Notion gồm:
+**Đối tượng sử dụng:**
 - Sinh viên
-- Cá nhân
-- Nhóm làm việc
-- Doanh nghiệp
+- Nhóm làm bài tập lớn
+- Nhóm dự án nhỏ
+- Cá nhân cần quản lý công việc
 
-Đặc biệt phù hợp với những người cần quản lý nhiều loại thông tin và công việc trên cùng một nền tảng.
-
-## 3. Vấn đề lớn nhất mà sản phẩm giải quyết là gì?
-
-Notion giải quyết vấn đề thông tin, tài liệu và công việc bị phân tán ở nhiều công cụ khác nhau.
-
-Thay vì sử dụng nhiều ứng dụng riêng biệt, người dùng có thể tập trung ghi chú, tài liệu, nhiệm vụ và kế hoạch vào một Workspace.
-
-## 4. Vì sao người dùng cần sản phẩm này?
-
-Người dùng cần Notion để:
-- Tổ chức thông tin dễ dàng
-- Quản lý công việc và kế hoạch
-- Lưu trữ tài liệu
-- Theo dõi tiến độ
-- Làm việc và chia sẻ thông tin với nhóm
-
-## 5. Tính năng quan trọng nhất của sản phẩm là gì?
-
-Tính năng quan trọng là khả năng kết hợp **Page, Database và Workspace** để người dùng tự xây dựng hệ thống quản lý thông tin và công việc theo nhu cầu.
-
-## 6. Nếu bỏ feature này thì điều gì xảy ra?
-
-Nếu bỏ khả năng tùy biến Page và Database, người dùng sẽ khó xây dựng workflow riêng.
-
-Khi đó Notion sẽ trở nên giống một ứng dụng ghi chú hoặc quản lý công việc thông thường và giảm giá trị khác biệt của sản phẩm.
-
-## 7. Vì sao user quay lại sử dụng sản phẩm?
-
-Người dùng quay lại vì công việc và thông tin được cập nhật liên tục. Notion giúp họ duy trì thói quen quản lý công việc và tập trung dữ liệu trong cùng một Workspace.
-
-## 8. Theo nhóm, điều gì làm sản phẩm này thành công?
-
-Theo nhóm, Notion thành công nhờ khả năng kết hợp nhiều nhu cầu trong một nền tảng và cho phép người dùng tự xây dựng Productivity Workflow phù hợp với bản thân hoặc nhóm.
+> **Mục tiêu:** Xây dựng một hệ thống giúp người dùng tạo Workspace, quản lý Project, phân công Task, theo dõi Deadline và kiểm soát tiến độ công việc.
 
 ---
 
-# HOẠT ĐỘNG 2: PRODUCT VS PROJECT
+## 2. Vấn đề cần giải quyết
 
-| Nội dung | Project-based Software | Product-based Software |
-|---|---|---|
-| **Ai quyết định requirement?** | Khách hàng và nhóm dự án thống nhất yêu cầu. | Product team dựa trên nhu cầu người dùng, dữ liệu và mục tiêu sản phẩm. |
-| **Mục tiêu chính** | Hoàn thành dự án đúng yêu cầu, phạm vi, thời gian và ngân sách. | Tạo giá trị cho người dùng và phát triển sản phẩm lâu dài. |
-| **Ai chịu trách nhiệm growth?** | Khách hàng. Sau khi bàn giao source code/phần mềm, khách hàng tự mang đi kinh doanh hoặc áp dụng nội bộ. Team dev không cần lo việc này.. | Product team và doanh nghiệp chịu trách nhiệm phát triển sản phẩm. |
-| **User có tham gia liên tục không?** | Thường tham gia ở các giai đoạn xác định yêu cầu, phản hồi và nghiệm thu. | Có, thông qua phản hồi, hành vi sử dụng và nhu cầu thực tế. |
-| **Có cải tiến liên tục không?** | Không (hoặc rất ít). Dự án kết thúc là xong. Nếu muốn thêm tính năng hay cải tiến, khách hàng phải ký thêm hợp đồng bảo trì hoặc dự án giai đoạn 2. | Có, sản phẩm được cập nhật và cải tiến liên tục. |
-| **Đo thành công bằng gì?** | Phạm vi công việc, thời gian, ngân sách và mức độ đáp ứng yêu cầu. | Giá trị mang lại cho người dùng, mức độ sử dụng, khả năng giữ chân người dùng và tăng trưởng. |
+Trong quá trình làm việc nhóm thường xuất hiện các vấn đề:
+
+- Công việc phân công chưa rõ ràng.
+- Thành viên không biết mình cần làm gì.
+- Khó biết ai đang thực hiện nhiệm vụ nào.
+- Deadline dễ bị quên.
+- Trưởng nhóm khó theo dõi tiến độ.
+- Tài liệu và công việc nằm ở nhiều nền tảng khác nhau.
+- Không xác định được công việc nào cần ưu tiên.
 
 ---
 
-# KẾT LUẬN
+## 3. Giải pháp
 
-Notion là một ví dụ về **Product-based Software**.
+Notion Workflow cung cấp một Workspace chung cho nhóm.
 
-Sản phẩm được phát triển và cải tiến liên tục dựa trên nhu cầu của người dùng. Giá trị của Notion không chỉ nằm ở việc hoàn thành một dự án phần mềm mà còn nằm ở khả năng duy trì, mở rộng và phát triển sản phẩm trong thời gian dài.
+Trong Workspace, người dùng có thể:
 
-## Chủ đề trọng tâm: Productivity Workflow
+- Tạo Project.
+- Tạo Task.
+- Phân công nhiệm vụ.
+- Thiết lập Deadline.
+- Thiết lập mức độ ưu tiên.
+- Theo dõi trạng thái công việc.
+- Trao đổi thông qua Comment.
+- Theo dõi tiến độ thông qua Dashboard.
+- Quản lý Task bằng Kanban Board.
 
-Điểm nổi bật của Notion là cho phép người dùng tự xây dựng workflow để quản lý thông tin, công việc và kế hoạch theo nhu cầu của mình.
+---
+
+# 4. Cấu trúc hệ thống
+
+## Workspace
+
+Một Workspace đại diện cho không gian làm việc của một nhóm.
+
+Ví dụ:
+
+**Workspace:** Nhóm 6 – Công nghệ phần mềm
+
+### Project trong Workspace
+
+- Notion Workflow
+- Báo cáo Công nghệ phần mềm
+- Presentation
+- Testing
+
+---
+
+# 5. Project
+
+Mỗi Workspace có thể có nhiều Project.
+
+## Thông tin Project
+
+- **Project Name:** Notion Workflow
+- **Description:** Xây dựng phần mềm quản lý workflow cho nhóm.
+- **Start Date:** 01/10/2026
+- **Deadline:** 30/10/2026
+- **Status:** In Progress
+- **Progress:** 65%
+
+---
+
+# 6. Task Management
+
+Mỗi Project được chia thành nhiều Task.
+
+## Thuộc tính của Task
+
+| Thuộc tính | Mô tả |
+|---|---|
+| Task Name | Tên nhiệm vụ |
+| Description | Nội dung nhiệm vụ |
+| Assignee | Người thực hiện |
+| Status | Trạng thái |
+| Priority | Mức độ ưu tiên |
+| Start Date | Ngày bắt đầu |
+| Deadline | Hạn hoàn thành |
+| Project | Project chứa Task |
+
+---
+
+## Ví dụ Task
+
+### Design Dashboard
+
+**Assignee:** Nguyễn Minh Đức
+
+**Status:** In Progress
+
+**Priority:** High
+
+**Deadline:** 15/10/2026
+
+**Description:**
+
+Thiết kế giao diện Dashboard cho hệ thống.
+
+### Checklist
+
+- [x] Thiết kế Sidebar
+- [x] Thiết kế Header
+- [ ] Thiết kế Project Card
+- [ ] Thiết kế Task Overview
+- [ ] Responsive giao diện
+
+---
+
+# 7. Workflow
+
+Task được quản lý theo luồng:
+
+**To Do → In Progress → Review → Done**
+
+## Ý nghĩa trạng thái
+
+### To Do
+
+Task đã được tạo nhưng chưa bắt đầu.
+
+### In Progress
+
+Task đang được thành viên thực hiện.
+
+### Review
+
+Task đã hoàn thành bước thực hiện và đang được kiểm tra.
+
+### Done
+
+Task đã hoàn thành.
+
+---
+
+# 8. Kanban Board
+
+## TO
