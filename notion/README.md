@@ -1,460 +1,694 @@
-# NOTION WORKFLOW – PRODUCTIVITY WORKFLOW
+# HỆ THỐNG QUẢN LÝ VÀ TÌM KIẾM ĐỒ THẤT LẠC TRONG TRƯỜNG ĐẠI HỌC
 
-## 1. Tổng quan sản phẩm
+## 1. Tên sản phẩm
 
-**Tên sản phẩm:** Notion Workflow
+**Tên đề xuất:** Campus Lost & Found
 
-**Loại sản phẩm:** Phần mềm quản lý công việc và quy trình làm việc nhóm.
+Tên khác có thể sử dụng:
 
-**Đối tượng sử dụng:**
-- Sinh viên
-- Nhóm làm bài tập lớn
-- Nhóm dự án nhỏ
-- Cá nhân cần quản lý công việc
-
-> **Mục tiêu:** Xây dựng một hệ thống giúp người dùng tạo Workspace, quản lý Project, phân công Task, theo dõi Deadline và kiểm soát tiến độ công việc.
+- UniFind
+- CampusFind
+- LostLink
+- FindU
+- Lost & Found Campus
 
 ---
 
-## 2. Vấn đề cần giải quyết
+# 2. Ý tưởng sản phẩm
 
-Trong quá trình làm việc nhóm thường xuất hiện các vấn đề:
+**Campus Lost & Found** là hệ thống hỗ trợ sinh viên, giảng viên và nhân viên trong trường đại học đăng tin, tìm kiếm và xác nhận các đồ vật bị thất lạc hoặc được tìm thấy trong khuôn viên trường.
 
-- Công việc phân công chưa rõ ràng.
-- Thành viên không biết mình cần làm gì.
-- Khó biết ai đang thực hiện nhiệm vụ nào.
-- Deadline dễ bị quên.
-- Trưởng nhóm khó theo dõi tiến độ.
-- Tài liệu và công việc nằm ở nhiều nền tảng khác nhau.
-- Không xác định được công việc nào cần ưu tiên.
+Hệ thống giúp kết nối:
 
----
+**Người làm mất đồ ↔ Người nhặt được đồ**
 
-## 3. Giải pháp
+thông qua thông tin về:
 
-Notion Workflow cung cấp một Workspace chung cho nhóm.
-
-Trong Workspace, người dùng có thể:
-
-- Tạo Project.
-- Tạo Task.
-- Phân công nhiệm vụ.
-- Thiết lập Deadline.
-- Thiết lập mức độ ưu tiên.
-- Theo dõi trạng thái công việc.
-- Trao đổi thông qua Comment.
-- Theo dõi tiến độ thông qua Dashboard.
-- Quản lý Task bằng Kanban Board.
+- Loại đồ vật
+- Hình ảnh
+- Địa điểm
+- Thời gian
+- Đặc điểm nhận dạng
+- Trạng thái đồ vật
 
 ---
 
-# 4. Cấu trúc hệ thống
+# 3. Vấn đề cần giải quyết
 
-## Workspace
+Trong khuôn viên trường đại học, sinh viên thường làm thất lạc các đồ vật như:
 
-Một Workspace đại diện cho không gian làm việc của một nhóm.
+- Thẻ sinh viên
+- Ví
+- Điện thoại
+- Tai nghe
+- Chìa khóa
+- Laptop
+- Sạc
+- Bình nước
+- Sách
+- Tài liệu
+
+Hiện nay khi mất đồ, sinh viên thường:
+
+- Đăng bài lên Facebook.
+- Hỏi trong nhóm Messenger.
+- Hỏi bảo vệ.
+- Hỏi bạn bè.
+- Tìm kiếm ở nhiều nhóm khác nhau.
+
+Điều này gây ra các vấn đề:
+
+- Thông tin bị phân tán.
+- Khó tìm lại bài đăng cũ.
+- Không biết món đồ đã được tìm thấy hay chưa.
+- Người nhặt được đồ không biết chủ nhân là ai.
+- Khó xác minh người nhận đồ có phải chủ sở hữu thật hay không.
+
+---
+
+# 4. Giải pháp
+
+Xây dựng một hệ thống Lost & Found riêng cho trường đại học.
+
+Người dùng có thể:
+
+- Đăng tin mất đồ.
+- Đăng tin nhặt được đồ.
+- Tìm kiếm đồ vật.
+- Lọc theo loại đồ vật.
+- Lọc theo địa điểm.
+- Lọc theo thời gian.
+- Xem ảnh đồ vật.
+- Gửi yêu cầu nhận lại đồ.
+- Xác minh chủ sở hữu.
+- Theo dõi trạng thái bài đăng.
+
+---
+
+# 5. Đối tượng người dùng
+
+## Sinh viên
+
+Có thể:
+
+- Đăng tin mất đồ.
+- Đăng tin nhặt được đồ.
+- Tìm kiếm đồ vật.
+- Gửi yêu cầu nhận lại đồ.
+
+## Giảng viên / Nhân viên
+
+Có thể sử dụng các chức năng tương tự sinh viên.
+
+## Quản trị viên
+
+Có thể:
+
+- Quản lý người dùng.
+- Kiểm duyệt bài đăng.
+- Xóa bài đăng vi phạm.
+- Quản lý danh mục đồ vật.
+- Xử lý báo cáo.
+- Theo dõi thống kê hệ thống.
+
+---
+
+# 6. Chức năng chính
+
+## 6.1. Đăng ký / Đăng nhập
+
+Người dùng có thể:
+
+- Đăng ký tài khoản.
+- Đăng nhập.
+- Đăng xuất.
+- Chỉnh sửa thông tin cá nhân.
+
+Có thể sử dụng email trường để tăng độ tin cậy.
 
 Ví dụ:
 
-**Workspace:** Nhóm 6 – Công nghệ phần mềm
-
-### Project trong Workspace
-
-- Notion Workflow
-- Báo cáo Công nghệ phần mềm
-- Presentation
-- Testing
+`student@university.edu.vn`
 
 ---
 
-# 5. Project
+# 7. Đăng tin mất đồ
 
-Mỗi Workspace có thể có nhiều Project.
+Khi làm mất đồ, người dùng tạo một bài đăng.
 
-## Thông tin Project
+Thông tin gồm:
 
-- **Project Name:** Notion Workflow
-- **Description:** Xây dựng phần mềm quản lý workflow cho nhóm.
-- **Start Date:** 01/10/2026
-- **Deadline:** 30/10/2026
-- **Status:** In Progress
-- **Progress:** 65%
+- Tên đồ vật.
+- Loại đồ vật.
+- Mô tả.
+- Hình ảnh.
+- Ngày làm mất.
+- Thời gian.
+- Địa điểm.
+- Đặc điểm nhận dạng.
+- Thông tin liên hệ.
 
----
+Ví dụ:
 
-# 6. Task Management
+## Mất tai nghe AirPods
 
-Mỗi Project được chia thành nhiều Task.
+**Loại:** Thiết bị điện tử
 
-## Thuộc tính của Task
+**Ngày mất:** 05/10/2026
 
-| Thuộc tính | Mô tả |
-|---|---|
-| Task Name | Tên nhiệm vụ |
-| Description | Nội dung nhiệm vụ |
-| Assignee | Người thực hiện |
-| Status | Trạng thái |
-| Priority | Mức độ ưu tiên |
-| Start Date | Ngày bắt đầu |
-| Deadline | Hạn hoàn thành |
-| Project | Project chứa Task |
+**Địa điểm:** Phòng B201
 
----
+**Mô tả:**
 
-## Ví dụ Task
+Tai nghe AirPods màu trắng, hộp có một vết xước nhỏ ở mặt sau.
 
-### Design Dashboard
-
-**Assignee:** Nguyễn Minh Đức
-
-**Status:** In Progress
-
-**Priority:** High
-
-**Deadline:** 15/10/2026
-
-**Description:**
-
-Thiết kế giao diện Dashboard cho hệ thống.
-
-### Checklist
-
-- [x] Thiết kế Sidebar
-- [x] Thiết kế Header
-- [ ] Thiết kế Project Card
-- [ ] Thiết kế Task Overview
-- [ ] Responsive giao diện
+**Trạng thái:** Đang tìm
 
 ---
 
-# 7. Workflow
+# 8. Đăng tin nhặt được đồ
 
-Task được quản lý theo luồng:
+Người nhặt được đồ có thể đăng thông tin lên hệ thống.
 
-**To Do → In Progress → Review → Done**
+Thông tin gồm:
 
-## Ý nghĩa trạng thái
+- Loại đồ vật.
+- Hình ảnh.
+- Địa điểm nhặt được.
+- Thời gian nhặt được.
+- Mô tả.
+- Nơi đang giữ đồ.
 
-### To Do
+Ví dụ:
 
-Task đã được tạo nhưng chưa bắt đầu.
+## Nhặt được thẻ sinh viên
 
-### In Progress
+**Địa điểm:** Thư viện tầng 2
 
-Task đang được thành viên thực hiện.
+**Ngày:** 05/10/2026
 
-### Review
-
-Task đã hoàn thành bước thực hiện và đang được kiểm tra.
-
-### Done
-
-Task đã hoàn thành.
-
----
-
-# 8. Kanban Board
-
-## TO DO
-
-- Thiết kế Database
-- Statistics Page
-- Notification
-
-## IN PROGRESS
-
-- Dashboard
-- Task Page
-- Backend API
-
-## REVIEW
-
-- Login Page
-- Register Page
-
-## DONE
-
-- Requirement Analysis
-- Product Vision
-- User Persona
+**Trạng thái:** Chưa có người nhận
 
 ---
 
-# 9. Mức độ ưu tiên
+# 9. Tìm kiếm đồ vật
 
-Task được chia thành 4 mức:
+Người dùng có thể nhập từ khóa.
 
-🔴 **Urgent** – Cần thực hiện ngay
+Ví dụ:
 
-🟠 **High** – Quan trọng
+`AirPods`
 
-🟡 **Medium** – Bình thường
-
-🟢 **Low** – Có thể thực hiện sau
+Hệ thống hiển thị các bài đăng liên quan.
 
 ---
 
-# 10. Dashboard
+# 10. Bộ lọc tìm kiếm
 
-Dashboard cung cấp thông tin tổng quan về Project.
+Có thể lọc theo:
 
-## Tổng quan
+### Loại đồ vật
 
-| Chỉ số | Giá trị |
-|---|---:|
-| Total Tasks | 20 |
-| Completed | 12 |
-| In Progress | 5 |
-| Overdue | 3 |
+- Điện thoại
+- Ví
+- Thẻ sinh viên
+- Chìa khóa
+- Tai nghe
+- Laptop
+- Sách
+- Tài liệu
+- Khác
 
-## Project Progress
+### Địa điểm
 
-**█████████████░░░░░ 65%**
+- Thư viện
+- Giảng đường
+- Căng tin
+- Sân trường
+- Phòng học
+- Phòng máy
+- Bãi gửi xe
 
----
+### Thời gian
 
-# 11. Upcoming Tasks
+- Hôm nay
+- 7 ngày gần nhất
+- 30 ngày gần nhất
 
-### Design Dashboard
+### Trạng thái
 
-📅 Deadline: 15/10/2026  
-🔴 Priority: High  
-🟡 Status: In Progress
-
-### Create Database
-
-📅 Deadline: 17/10/2026  
-🟠 Priority: High  
-⚪ Status: To Do
-
-### Write Report
-
-📅 Deadline: 20/10/2026  
-🟡 Priority: Medium  
-⚪ Status: To Do
-
----
-
-# 12. Calendar
-
-Calendar hiển thị Deadline của các Task và Project.
-
-### 15/10
-
-- Design Dashboard
-
-### 17/10
-
-- Create Database
-
-### 20/10
-
-- Write Report
-
-### 30/10
-
-- Project Deadline
+- Đang tìm
+- Đã tìm thấy
+- Chưa có người nhận
+- Đã trả lại
 
 ---
 
-# 13. Team Members
+# 11. Chi tiết bài đăng
 
-| Thành viên | Vai trò | Công việc |
-|---|---|---|
-| Member 1 | Leader | Quản lý Project |
-| Member 2 | Frontend | UI / UX |
-| Member 3 | Backend | API |
-| Member 4 | Database | Database |
+Khi mở một bài đăng, người dùng có thể xem:
 
----
+- Hình ảnh.
+- Tên đồ vật.
+- Mô tả.
+- Loại đồ vật.
+- Địa điểm.
+- Ngày.
+- Người đăng.
+- Trạng thái.
 
-# 14. Activity Log
+Ngoài ra có thể:
 
-### Recent Activity
-
-**Nguyễn Minh Đức**
-- Chuyển `Design Dashboard`
-- `To Do → In Progress`
-
-**Member 2**
-- Tạo Task `Create Database`
-
-**Member 3**
-- Hoàn thành `Login Page`
+- Gửi yêu cầu nhận đồ.
+- Nhắn tin cho người đăng.
+- Báo cáo bài đăng.
 
 ---
 
-# 15. Documents
+# 12. Yêu cầu nhận lại đồ
 
-Tài liệu của Project được lưu tập trung.
+Khi người dùng nhận thấy món đồ có thể là của mình, họ có thể gửi:
 
-## Project Documents
+**Yêu cầu nhận đồ**
 
-- Requirement Analysis
-- Product Vision
-- User Persona
-- User Story
-- Use Case
-- Database Design
-- API Documentation
-- Testing Documentation
+Người dùng cần cung cấp một số thông tin để xác minh.
 
----
+Ví dụ:
 
-# 16. Comment
+> Hãy mô tả đặc điểm mà chỉ chủ sở hữu biết.
 
-Thành viên có thể trao đổi trong từng Task.
+Ví dụ:
 
-> **Leader:** Hoàn thành Dashboard trước ngày 15/10 nhé.
-
-> **Frontend:** OK, mình đang làm phần Task Overview.
-
-> **Leader:** Sau khi hoàn thành chuyển sang Review.
+- Màu ốp điện thoại.
+- Hình nền điện thoại.
+- Nội dung bên trong ví.
+- Móc khóa đi kèm.
+- Vết xước trên đồ vật.
 
 ---
 
-# 17. Luồng hoạt động
+# 13. Xác minh chủ sở hữu
 
-**User**
+Người đăng tin nhặt được đồ có thể:
+
+**Chấp nhận**
+
+hoặc
+
+**Từ chối**
+
+yêu cầu nhận đồ.
+
+Nếu xác minh thành công:
+
+**Chưa có người nhận → Đã trả lại**
+
+---
+
+# 14. Trạng thái bài đăng
+
+## Đối với đồ bị mất
+
+**Đang tìm**
 
 ↓
+
+**Đã tìm thấy**
+
+↓
+
+**Đóng bài đăng**
+
+## Đối với đồ nhặt được
+
+**Chưa có người nhận**
+
+↓
+
+**Đang xác minh**
+
+↓
+
+**Đã trả lại**
+
+---
+
+# 15. Dashboard
+
+Dashboard hiển thị thông tin tổng quan.
+
+## Thống kê
+
+| Nội dung | Số lượng |
+|---|---:|
+| Đồ đang thất lạc | 35 |
+| Đồ được tìm thấy | 20 |
+| Đã trả lại chủ | 15 |
+| Bài đăng mới hôm nay | 8 |
+
+---
+
+# 16. Bài đăng gần đây
+
+## 🎧 Tai nghe AirPods
+
+📍 Phòng B201  
+📅 05/10/2026  
+🔴 Đang tìm
+
+---
+
+## 🎓 Thẻ sinh viên
+
+📍 Thư viện  
+📅 05/10/2026  
+🟢 Nhặt được
+
+---
+
+## 🔑 Chìa khóa
+
+📍 Bãi gửi xe  
+📅 04/10/2026  
+🟡 Chưa có người nhận
+
+---
+
+# 17. Notification
+
+Hệ thống có thể gửi thông báo khi:
+
+- Có bài đăng mới giống với đồ người dùng đang tìm.
+- Có người gửi yêu cầu nhận đồ.
+- Yêu cầu nhận đồ được chấp nhận.
+- Có người gửi tin nhắn.
+- Bài đăng sắp hết thời gian hiển thị.
+
+---
+
+# 18. Matching đồ vật
+
+Hệ thống có thể đề xuất các bài đăng có khả năng liên quan.
+
+Ví dụ:
+
+Người dùng đăng:
+
+**Mất AirPods tại thư viện ngày 05/10**
+
+Hệ thống phát hiện bài:
+
+**Nhặt được tai nghe màu trắng tại thư viện ngày 05/10**
+
+Sau đó hiển thị:
+
+> Có một bài đăng có thể liên quan đến đồ vật của bạn.
+
+---
+
+# 19. Hồ sơ người dùng
+
+Profile hiển thị:
+
+- Họ tên.
+- Avatar.
+- Email.
+- Bài đăng đã tạo.
+- Đồ đã tìm thấy.
+- Đồ đã trả lại.
+- Yêu cầu đang xử lý.
+
+---
+
+# 20. Trang quản trị
+
+Admin có thể:
+
+- Quản lý tài khoản.
+- Xem danh sách bài đăng.
+- Xóa bài đăng vi phạm.
+- Quản lý danh mục.
+- Xem báo cáo.
+- Khóa tài khoản vi phạm.
+- Xem thống kê.
+
+---
+
+# 21. Luồng hoạt động chính
+
+## Luồng người làm mất đồ
 
 **Login**
 
 ↓
 
-**Workspace**
+**Đăng tin mất đồ**
 
 ↓
 
-**Project**
+**Nhập thông tin**
 
 ↓
 
-**Task**
+**Đăng bài**
 
 ↓
 
-**Assign Member**
+**Hệ thống tìm bài tương tự**
 
 ↓
 
-**Set Priority + Deadline**
+**Xem kết quả**
 
 ↓
 
-**To Do**
+**Liên hệ người nhặt**
 
 ↓
 
-**In Progress**
+**Xác minh**
 
 ↓
 
-**Review**
+**Nhận lại đồ**
 
 ↓
 
-**Done**
-
-↓
-
-**Project Progress**
+**Đánh dấu đã tìm thấy**
 
 ---
 
-# 18. Chức năng chính
+## Luồng người nhặt được đồ
 
-- [x] Login / Register
-- [x] Workspace
-- [x] Project Management
-- [x] Task Management
-- [x] Assign Member
-- [x] Priority
-- [x] Deadline
-- [x] Kanban Board
-- [x] Dashboard
-- [ ] Calendar
-- [ ] Comment
-- [ ] Statistics
+**Login**
+
+↓
+
+**Đăng tin nhặt được**
+
+↓
+
+**Nhập thông tin**
+
+↓
+
+**Đăng bài**
+
+↓
+
+**Nhận yêu cầu từ chủ sở hữu**
+
+↓
+
+**Xác minh thông tin**
+
+↓
+
+**Trả đồ**
+
+↓
+
+**Đánh dấu đã trả lại**
+
+---
+
+# 22. Database dự kiến
+
+## USER
+
+- user_id
+- full_name
+- email
+- password
+- avatar
+- role
+- created_at
+
+## ITEM_CATEGORY
+
+- category_id
+- category_name
+
+## LOST_ITEM
+
+- lost_id
+- user_id
+- category_id
+- item_name
+- description
+- location
+- lost_date
+- image
+- status
+- created_at
+
+## FOUND_ITEM
+
+- found_id
+- user_id
+- category_id
+- item_name
+- description
+- location
+- found_date
+- image
+- status
+- created_at
+
+## CLAIM_REQUEST
+
+- claim_id
+- found_id
+- user_id
+- verification_message
+- status
+- created_at
+
+## MESSAGE
+
+- message_id
+- sender_id
+- receiver_id
+- content
+- created_at
+
+## NOTIFICATION
+
+- notification_id
+- user_id
+- content
+- is_read
+- created_at
+
+## REPORT
+
+- report_id
+- user_id
+- post_id
+- reason
+- status
+
+---
+
+# 23. Công nghệ dự kiến
+
+## Frontend
+
+- ReactJS
+- HTML
+- CSS
+- JavaScript
+
+## Backend
+
+- Node.js
+- Express.js
+
+## Database
+
+- MySQL
+
+## Công cụ
+
+- Visual Studio Code
+- GitHub
+- DBeaver
+- Figma
+- Postman
+
+---
+
+# 24. MVP
+
+Phiên bản đầu tiên tập trung vào:
+
+- [x] Đăng ký
+- [x] Đăng nhập
+- [x] Đăng tin mất đồ
+- [x] Đăng tin nhặt được
+- [x] Tìm kiếm
+- [x] Bộ lọc
+- [x] Xem chi tiết bài đăng
+- [x] Yêu cầu nhận đồ
+- [x] Cập nhật trạng thái
+- [x] Quản lý bài đăng cá nhân
+
+---
+
+# 25. Chức năng phát triển thêm
+
+Sau khi hoàn thành MVP có thể bổ sung:
+
+- [ ] Chat realtime
 - [ ] Notification
-- [ ] Activity Log
+- [ ] Matching tự động
+- [ ] Email thông báo
+- [ ] QR Code
+- [ ] Bản đồ vị trí
+- [ ] AI nhận diện hình ảnh
+- [ ] Thống kê nâng cao
 
 ---
 
-# 19. MVP
+# 26. Điểm nổi bật của sản phẩm
 
-## Version 1.0
+Sản phẩm tập trung hoàn toàn vào môi trường trường đại học.
 
-Các chức năng bắt buộc:
+Các điểm nổi bật:
 
-- Login / Register
-- Workspace
-- Project
-- Task
-- Assign Task
-- Priority
-- Deadline
-- Kanban
-- Dashboard
-
-## Version 2.0
-
-Phát triển thêm:
-
-- Calendar
-- Comment
-- Statistics
-- Activity Log
-- Notification
-- Document Management
+1. Tập trung thông tin Lost & Found vào một hệ thống.
+2. Tìm kiếm nhanh theo đồ vật.
+3. Lọc theo địa điểm và thời gian.
+4. Phân biệt bài đăng mất đồ và nhặt được đồ.
+5. Xác minh trước khi trả đồ.
+6. Theo dõi trạng thái đồ vật.
+7. Gợi ý bài đăng tương tự.
+8. Quản lý lịch sử Lost & Found.
 
 ---
 
-# 20. Điểm khác biệt với Notion
+# 27. Product Vision
 
-Notion là một nền tảng Workspace tổng quát cho phép người dùng tùy biến rất sâu.
-
-**Notion Workflow tập trung vào quản lý quy trình công việc.**
-
-Sản phẩm tập trung vào:
-
-**Project + Task + Workflow + Team + Deadline + Progress**
-
-Thay vì xây dựng một bản sao của Notion, sản phẩm hướng tới một hệ thống đơn giản hơn dành cho **sinh viên và nhóm dự án nhỏ**.
+> **For:** Sinh viên, giảng viên và nhân viên trong trường đại học.
+>
+> **Who:** Cần tìm lại đồ thất lạc hoặc tìm chủ sở hữu của đồ vật nhặt được.
+>
+> **The:** Campus Lost & Found.
+>
+> **Is a:** Hệ thống quản lý và tìm kiếm đồ thất lạc.
+>
+> **That:** Giúp kết nối người mất đồ với người nhặt được đồ một cách nhanh chóng và có tổ chức.
+>
+> **Unlike:** Việc đăng bài rời rạc trên Facebook, Messenger hoặc các nhóm sinh viên.
+>
+> **Our Product:** Tập trung toàn bộ thông tin Lost & Found trên một nền tảng, hỗ trợ tìm kiếm, lọc, xác minh và theo dõi trạng thái đồ vật.
 
 ---
 
-# 21. Product Vision
+# 28. Tóm tắt sản phẩm
 
-> **For:** Sinh viên và nhóm làm việc nhỏ  
->
-> **Who:** Cần quản lý nhiều công việc và nhiệm vụ  
->
-> **The:** Notion Workflow  
->
-> **Is a:** Workflow Management Platform  
->
-> **That:** Giúp quản lý Project, Task, Deadline và tiến độ  
->
-> **Unlike:** Các ứng dụng ghi chú hoặc quản lý công việc đơn lẻ  
->
-> **Our Product:** Tập trung vào quản lý quy trình làm việc nhóm trong một Workspace đơn giản và trực quan.
+**Campus Lost & Found là hệ thống quản lý và tìm kiếm đồ thất lạc trong trường đại học. Hệ thống cho phép người dùng đăng tin mất đồ hoặc nhặt được đồ, tìm kiếm và lọc các bài đăng theo loại đồ vật, địa điểm và thời gian. Người dùng có thể gửi yêu cầu nhận lại đồ và thực hiện xác minh trước khi món đồ được trả lại cho chủ sở hữu.**
 
----
+Luồng cốt lõi của hệ thống:
 
-# 22. Tổng kết
-
-**Notion Workflow** là một hệ thống quản lý công việc và quy trình làm việc nhóm.
-
-Luồng chính của sản phẩm:
-
-**Workspace → Project → Task → Workflow → Progress**
-
-Sản phẩm giúp nhóm:
-
-- Phân công công việc rõ ràng.
-- Theo dõi Deadline.
-- Biết trạng thái từng Task.
-- Theo dõi tiến độ Project.
-- Tăng khả năng phối hợp giữa các thành viên.
+**Đăng tin → Tìm kiếm → Matching → Xác minh → Trả đồ**
